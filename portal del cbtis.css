@@ -1,0 +1,184 @@
+*{
+	background-color: ;
+	font-family: helvetica neve;
+	
+}
+
+
+#tema{
+	text-align: center;
+	color: red;
+	
+}
+
+#tema {
+	font-size: 2em;
+	color: red;
+	
+}
+.zoom{
+	transition:width 1s,height 1s,transform 1s;
+	-moz-transition:width 1s,height 1s,-webkit-transform 1s;
+	-webkit-transition:width 1s,height 1s,-webkit-transform 1s;
+	-o-transition:width 1s, height 1s,-o-transform 1s;
+}
+
+.zoom:hover{
+	transform:scale(1.5);
+	-moz-transform:scale(1.5);
+	-webkit-transform:scale(1.5);
+	-o-transform:scale(1.5);
+}
+
+#subtema{
+	font-size: 2.5em;
+	text-align: center;
+	color: red;
+}
+
+#dgeti{
+	float: left;
+	margin-left: 220px;
+	margin-top: -150px;
+}
+
+#sep{
+	float: right;
+	margin-right: 110px;
+	margin-top: -140px;
+}
+
+header{
+	margin:100px auto;
+	width:1200px;
+	height:230px;
+	background-color: black;
+}
+
+div.contenedor{
+	width: 200px;
+	height: 230px;
+	float: left;
+	-webkit-transition:height .6s;
+}
+
+div#uno{
+	background-color: rgb(223,147,26);
+	margin-left: 0px;
+
+}
+div#dos{
+	background-color: rgb(208,101,3);
+}
+div#tres{
+	background-color: rgb(22,145,190);
+}
+div#cuatro{
+	background-color: rgb(22,107,162);
+}
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+div#seis{
+	background-color: rgb(21,40,54);
+}
+
+img.icon{
+	display: block;
+	margin: 50px;
+	background-color: rgba(255,255,255,.15);
+	width: 50px;
+	padding: 20px;
+	-webkit-border-radius:50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition: box-shadow .5s;
+
+}
+
+p.texto{
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	opacity: .6;
+	-webkit-transition:padding-top .6s;
+}
+div.contenedor:hover {
+	/* style */
+	height: 250px;
+}
+
+div.contenedor:hover p.texto{
+	/* style */
+	padding-top: 30px;
+	opacity: 1;
+
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px rgba(255,255,255,1);
+}
+
+#unodeuno{
+	float: left;
+	width: 500px;
+	height: 200px;
+	background-color: #68B3E0;
+	margin-bottom: 50px;
+	margin-top: 0px;
+	margin-left: 300px;
+}
+
+#dosdedos{
+	float: left;
+	width: 500px;
+	height: 200px;
+	background-color: #F9BB3F;
+	margin-bottom: 50px;
+	margin-top: 0px;
+
+}
+
+#correo{
+	text-align: center;
+	background-color:#0A9DF5;
+	margin-left: 300px;
+	float:left;
+	width: 900px;
+	height: 80px;
+
+}
+
+#ocultar{
+	margin-left: 700px;
+	color: red;
+	background-color: yellow;
+	margin-right: 700px;
+	text-align: center;
+	width: 150px;
+	font-size: 1.2em;
+
+}
+
+#mostrar{
+	margin-left: 700px;
+	color: red;
+	background-color: yellow;
+	margin-right: 700px;
+	text-align: center;
+	width: 150px;
+	font-size: 1.2em;
+
+}
+
+#abajo{
+	background-color: orange;
+	height: 200px;
+}
+
+#img{
+	width: 500px;
+	height: 150px;
+	margin: auto;
+	display: block;
+}
